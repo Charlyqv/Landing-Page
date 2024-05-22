@@ -1,0 +1,30 @@
+img {
+  max-width: 100%; 
+}
+
+.title{
+  margin-top: 1rem;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.descripcion{
+  font-size: 15px;
+}
+
+.card{
+  width: 300px;
+  height: 570px;
+  border: none;
+}
+
+.card-back{
+  width: 300px;
+  height: 570px;
+  background: pink;
+  border: none;
+}
+
+.reverso{
+  color: red;
+}

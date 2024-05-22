@@ -1,0 +1,27 @@
+.header{
+  display: flex;
+}
+
+.quimica{
+  font-size: 35px;
+}
+
+.header-menu{
+  list-style: none;
+  display: flex;
+  gap: 4.6rem;
+  color: white;
+  align-items: center;
+}
+
+.header-menu > li {
+  margin: 0 10px; 
+  color: black;
+  cursor: pointer;
+}
+
+.header-menu > li:hover {
+  margin: 0 10px; 
+  color: var(--color3);
+  cursor: pointer;
+}

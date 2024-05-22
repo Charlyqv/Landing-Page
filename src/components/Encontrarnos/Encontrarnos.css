@@ -1,0 +1,56 @@
+.encontrarnos{
+  display: flex;
+  gap: 1rem;
+  padding: 0 2rem;
+  padding-top: 2rem;
+}
+
+.left-e{
+  display: flex;
+  flex: 2;
+  position: relative;
+  gap: 2rem;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+
+.left-e>:nth-child(1){
+  color: var(--color6);
+  font-weight: bold;
+}
+
+.left-e>:nth-child(2){
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.left-e>:nth-child(3){
+  color: var(--color4);
+  font-weight: bold;
+}
+
+.left-e>:nth-child(4){
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.left-e>:nth-child(5){
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: none;
+}
+
+.right-e{
+  display: flex;
+  flex: 8;
+  gap: 2rem;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+
+.mapa{
+  position: absolute;
+  width: 59rem;
+  height: 21.7rem;
+  border: 2px solid var(--color6);
+}
